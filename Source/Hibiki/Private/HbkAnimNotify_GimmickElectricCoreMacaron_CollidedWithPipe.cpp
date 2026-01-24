@@ -1,0 +1,6 @@
+#include "HbkAnimNotify_GimmickElectricCoreMacaron_CollidedWithPipe.h"
+
+UHbkAnimNotify_GimmickElectricCoreMacaron_CollidedWithPipe::UHbkAnimNotify_GimmickElectricCoreMacaron_CollidedWithPipe() {
+}
+
+

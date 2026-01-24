@@ -1,0 +1,6 @@
+#include "HbkAnimNotifyState_StrongFlyEm_SetDisabledMagnetCatch.h"
+
+UHbkAnimNotifyState_StrongFlyEm_SetDisabledMagnetCatch::UHbkAnimNotifyState_StrongFlyEm_SetDisabledMagnetCatch() {
+}
+
+

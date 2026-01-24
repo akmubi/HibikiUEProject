@@ -1,0 +1,28 @@
+#include "HbkPixelateData.h"
+
+FHbkPixelateData::FHbkPixelateData() {
+    this->StateTime = 0.00f;
+    this->FadeOutTime = 0.00f;
+    this->bUseJumpTo = false;
+    this->PixelateScale_Min = 0.00f;
+    this->PixelateScale_Max = 0.00f;
+    this->PixelateScale_ElongateScale = 0.00f;
+    this->PixelateScale2_Min = 0.00f;
+    this->PixelateScale2_Max = 0.00f;
+    this->PixelateScale2_ElongateScale = 0.00f;
+    this->PixelateScale3_Min = 0.00f;
+    this->PixelateScale3_Max = 0.00f;
+    this->PixelateScale3_ElongateScale = 0.00f;
+    this->PixelateEdgeBlendWidth = 0.00f;
+    this->PixelateForegroundEdgeBlendWidth = 0.00f;
+    this->PixelateBlendRatio = 0.00f;
+    this->PixelateProbability = 0.00f;
+    this->PixelateRandomAnimationIntervalFastRatio = 0.00f;
+    this->PixelateRandomAnimationIntervalMinF = 0.00f;
+    this->PixelateRandomAnimationIntervalMaxF = 0.00f;
+    this->PixelateRandomAnimationIntervalMin = 0.00f;
+    this->PixelateRandomAnimationIntervalMax = 0.00f;
+    this->ClipPlaneForwardOffset = 0.00f;
+    this->PixelateWorldRadius = 0.00f;
+}
+

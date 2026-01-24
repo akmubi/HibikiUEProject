@@ -1,0 +1,6 @@
+#include "HbkAnimNotifyState_em0740_UpdatePlayerAttachInfoOnAttack.h"
+
+UHbkAnimNotifyState_em0740_UpdatePlayerAttachInfoOnAttack::UHbkAnimNotifyState_em0740_UpdatePlayerAttachInfoOnAttack() {
+}
+
+

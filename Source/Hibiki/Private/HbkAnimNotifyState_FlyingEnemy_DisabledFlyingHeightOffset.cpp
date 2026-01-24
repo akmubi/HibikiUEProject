@@ -1,0 +1,6 @@
+#include "HbkAnimNotifyState_FlyingEnemy_DisabledFlyingHeightOffset.h"
+
+UHbkAnimNotifyState_FlyingEnemy_DisabledFlyingHeightOffset::UHbkAnimNotifyState_FlyingEnemy_DisabledFlyingHeightOffset() {
+}
+
+

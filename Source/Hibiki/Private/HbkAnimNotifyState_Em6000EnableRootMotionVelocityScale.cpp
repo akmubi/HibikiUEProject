@@ -1,0 +1,6 @@
+#include "HbkAnimNotifyState_Em6000EnableRootMotionVelocityScale.h"
+
+UHbkAnimNotifyState_Em6000EnableRootMotionVelocityScale::UHbkAnimNotifyState_Em6000EnableRootMotionVelocityScale() {
+}
+
+

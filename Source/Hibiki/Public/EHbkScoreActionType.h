@@ -1,0 +1,47 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EHbkScoreActionType.generated.h"
+
+UENUM(BlueprintType)
+enum class EHbkScoreActionType : uint8 {
+    None,
+    TakeDamage,
+    BeatHit,
+    JamComboAttack,
+    PartnerCounter,
+    EnemyDestroy,
+    ParryCounter,
+    EscapeCounter,
+    ContinuousParry,
+    DirectionalParry,
+    ContinuousEscape,
+    Collabo,
+    PartnerToPartner,
+    SpecialRhythmAttack,
+    MagnetBackstab,
+    OverKill,
+    Dying,
+    WorstRhythmRank,
+    ContinuousCombo10,
+    ContinuousCombo20,
+    ContinuousCombo30,
+    ContinuousCombo40,
+    ContinuousCombo50,
+    ContinuousCombo60,
+    ContinuousCombo70,
+    ContinuousCombo80,
+    ContinuousCombo90,
+    ContinuousCombo100,
+    BonusTime,
+    AirCombo,
+    JamCombo,
+    MagnetCombo,
+    BeginSpecialAttack1,
+    BeginSpecialAttack2,
+    BeginSpecialAttack3,
+    BeginSpecialAttack4,
+    BeginSpecialAttack10,
+    Repeat,
+    Damage,
+};
+

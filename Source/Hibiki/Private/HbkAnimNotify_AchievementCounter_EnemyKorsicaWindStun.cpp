@@ -1,0 +1,6 @@
+#include "HbkAnimNotify_AchievementCounter_EnemyKorsicaWindStun.h"
+
+UHbkAnimNotify_AchievementCounter_EnemyKorsicaWindStun::UHbkAnimNotify_AchievementCounter_EnemyKorsicaWindStun() {
+}
+
+

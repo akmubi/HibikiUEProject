@@ -1,0 +1,67 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "GameplayTagContainer.h"
+#include "HbkGimmickBase.h"
+#include "HbkGimmick_ElectricCoreMacaronInterlock.h"
+#include "HbkGimmick_ElectricCoreMacaronVfx.h"
+#include "HbkGimmick_ElectricCoreMacaron.generated.h"
+
+class AActor;
+class UDamageType;
+
+UCLASS(Blueprintable)
+class AHbkGimmick_ElectricCoreMacaron : public AHbkGimmickBase {
+    GENERATED_BODY()
+public:
+    DECLARE_DYNAMIC_MULTICAST_DELEGATE(FPartnerTargetPointDelegate);
+    DECLARE_DYNAMIC_MULTICAST_DELEGATE(FMovedDelegate);
+    
+    UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FMovedDelegate OnMoved;
+    
+    UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FPartnerTargetPointDelegate OnPartnerLockon;
+    
+    UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FPartnerTargetPointDelegate OnPartnerUnLock;
+    
+    UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FPartnerTargetPointDelegate OnPartnerBeginAction;
+    
+    UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FPartnerTargetPointDelegate OnPartnerSuccessAction;
+    
+protected:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FHbkGimmick_ElectricCoreMacaronInterlock Interlock;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FHbkGimmick_ElectricCoreMacaronVfx Vfx;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, SaveGame, meta=(AllowPrivateAccess=true))
+    bool bMoved;
+    
+public:
+    AHbkGimmick_ElectricCoreMacaron(const FObjectInitializer& ObjectInitializer);
+
+protected:
+    UFUNCTION(BlueprintCallable)
+    void OnPartnerTargetPointUnLock();
+    
+    UFUNCTION(BlueprintCallable)
+    void OnPartnerTargetPointSuccessAction();
+    
+    UFUNCTION(BlueprintCallable)
+    void OnPartnerTargetPointLockon();
+    
+    UFUNCTION(BlueprintCallable)
+    void OnPartnerTargetPointBeginAction();
+    
+    UFUNCTION(BlueprintCallable)
+    void OnEndAnim();
+    
+    UFUNCTION(BlueprintCallable)
+    void OnDamageTrigger(float Damage, const FGameplayTagContainer& DamageTags, const AActor* DamageCauser, const UDamageType* DamageType);
+    
+};
+

@@ -1,0 +1,48 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EHbkTalkScreenTransition.generated.h"
+
+UENUM(BlueprintType)
+enum class EHbkTalkScreenTransition : uint8 {
+    None,
+    FadeIn,
+    FadeOut,
+    FadeInOut,
+    WhiteIn,
+    WhiteOut,
+    WhiteInOut,
+    Wipe_Diagonal,
+    Wipe_Diagonal_Vertical,
+    Wipe_Diagonal_Horizontal,
+    Wipe_Diagonal_Right,
+    Wipe_Diagonal_Left,
+    Wipe_Diagonal_Up,
+    Wipe_Diagonal_Down,
+    Wipe_Flat,
+    Wipe_Roll,
+    Wipe_Jaggy_Right,
+    Wipe_Jaggy_Left,
+    Wipe_Smoke,
+    Wipe_Smoke2,
+    Wipe_Vertical_OUT,
+    Wipe_Horizontal_OUT,
+    Wipe_Right_OUT,
+    Wipe_Left_OUT,
+    Wipe_Up_OUT,
+    Wipe_Down_OUT,
+    Wipe_Flat_OUT,
+    Wipe_Roll_OUT,
+    Wipe_Jaggy_Right_OUT,
+    Wipe_Jaggy_Left_OUT,
+    Wipe_Vertical_IN,
+    Wipe_Horizontal_IN,
+    Wipe_Right_IN,
+    Wipe_Left_IN,
+    Wipe_Up_IN,
+    Wipe_Down_IN,
+    Wipe_Flat_IN,
+    Wipe_Roll_IN,
+    Wipe_Jaggy_Right_IN,
+    Wipe_Jaggy_Left_IN,
+};
+

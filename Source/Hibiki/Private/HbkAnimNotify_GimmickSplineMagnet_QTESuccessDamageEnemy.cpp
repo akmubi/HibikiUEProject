@@ -1,0 +1,6 @@
+#include "HbkAnimNotify_GimmickSplineMagnet_QTESuccessDamageEnemy.h"
+
+UHbkAnimNotify_GimmickSplineMagnet_QTESuccessDamageEnemy::UHbkAnimNotify_GimmickSplineMagnet_QTESuccessDamageEnemy() {
+}
+
+

@@ -1,0 +1,57 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ETngUserWidgetZOrder.generated.h"
+
+UENUM(BlueprintType)
+namespace ETngUserWidgetZOrder {
+    enum Type {
+        Normal,
+        BelowNormal = -50,
+        AboveNormal = 50,
+        Lowest = -100,
+        Highest = 100,
+        GameSystemFade = 99,
+        GameDesignFade = 97,
+        WaterMark = 96,
+        WaitingNotification = 110,
+        InGameLowest = Normal,
+        InGameMiddle = 25,
+        InGameHighest = AboveNormal,
+        PlayerHUD = 1,
+        RhythmGame = 5,
+        BeatHit = 4,
+        EnemyHeadIcon = 3,
+        EnemyHealthbar = 2,
+        VLog = InGameMiddle,
+        FullScreenMovie = 45,
+        FullScreenMovieDummy = 44,
+        RhythmTower = 46,
+        RhythmTowerPopup,
+        RhythmTowerTimer,
+        ArcadeMenu = RhythmTower,
+        Tutorial = 49,
+        LetterBox = Tutorial,
+        Talk = AboveNormal,
+        MusicTitle,
+        SpAttackScoreBar = MusicTitle,
+        MenuLowest = MusicTitle,
+        MenuMiddle = 70,
+        MenuHighest = 90,
+        Store = FullScreenMovie,
+        MenuCommonBG = FullScreenMovieDummy,
+        Title = MusicTitle,
+        TitleNoticeScreen,
+        VLogConfirm = MusicTitle,
+        TrainingRoom = MusicTitle,
+        PhotoMode = MusicTitle,
+        Ending = MenuMiddle,
+        EndingSkipButton,
+        Clear = 89,
+        Pause = MenuHighest,
+        HowToPlay = MenuHighest,
+        Option = MenuHighest,
+        OptionSetting,
+        OutFrame = OptionSetting,
+    };
+}
+

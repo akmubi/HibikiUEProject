@@ -1,0 +1,44 @@
+{
+	"FileVersion": 3,
+	"Version": 9,
+	"VersionName": "2.4.0.6",
+	"FriendlyName": "TangoBNet",
+	"Description": "Bethesda.Net integration plugin",
+	"Category": "Tango Plugin",
+	"CreatedBy": "Tangogameworks",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
+	"LocalizationTargets": [
+		{
+			"Name": "OnlineSubsystemBNet",
+			"LoadingPolicy": "Always"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true,
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}

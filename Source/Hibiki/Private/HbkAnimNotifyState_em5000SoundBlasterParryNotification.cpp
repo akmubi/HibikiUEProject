@@ -1,0 +1,6 @@
+#include "HbkAnimNotifyState_em5000SoundBlasterParryNotification.h"
+
+UHbkAnimNotifyState_em5000SoundBlasterParryNotification::UHbkAnimNotifyState_em5000SoundBlasterParryNotification() {
+}
+
+

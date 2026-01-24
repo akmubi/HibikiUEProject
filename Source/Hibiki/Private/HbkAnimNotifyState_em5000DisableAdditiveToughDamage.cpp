@@ -1,0 +1,6 @@
+#include "HbkAnimNotifyState_em5000DisableAdditiveToughDamage.h"
+
+UHbkAnimNotifyState_em5000DisableAdditiveToughDamage::UHbkAnimNotifyState_em5000DisableAdditiveToughDamage() {
+}
+
+

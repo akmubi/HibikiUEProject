@@ -1,0 +1,6 @@
+#include "HbkAnimNotify_KorsicaStartAnimCameraCheckPermitNotice.h"
+
+UHbkAnimNotify_KorsicaStartAnimCameraCheckPermitNotice::UHbkAnimNotify_KorsicaStartAnimCameraCheckPermitNotice() {
+}
+
+

@@ -1,0 +1,5 @@
+#include "HbkEnginePostProcessVolumeLensFilterPatchTableRow.h"
+
+FHbkEnginePostProcessVolumeLensFilterPatchTableRow::FHbkEnginePostProcessVolumeLensFilterPatchTableRow() {
+}
+

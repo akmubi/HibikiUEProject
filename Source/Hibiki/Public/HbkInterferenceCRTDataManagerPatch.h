@@ -1,0 +1,20 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "UObject/Object.h"
+#include "HbkInterferenceCRTDataManagerPatch.generated.h"
+
+class UDataTable;
+
+UCLASS(Blueprintable)
+class UHbkInterferenceCRTDataManagerPatch : public UObject {
+    GENERATED_BODY()
+public:
+protected:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    UDataTable* DataTable;
+    
+public:
+    UHbkInterferenceCRTDataManagerPatch();
+
+};
+

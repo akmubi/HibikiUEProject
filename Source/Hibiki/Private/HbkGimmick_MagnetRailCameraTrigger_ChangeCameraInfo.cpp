@@ -1,0 +1,5 @@
+#include "HbkGimmick_MagnetRailCameraTrigger_ChangeCameraInfo.h"
+
+FHbkGimmick_MagnetRailCameraTrigger_ChangeCameraInfo::FHbkGimmick_MagnetRailCameraTrigger_ChangeCameraInfo() {
+}
+

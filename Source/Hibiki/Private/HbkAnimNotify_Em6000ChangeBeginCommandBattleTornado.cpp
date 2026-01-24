@@ -1,0 +1,6 @@
+#include "HbkAnimNotify_Em6000ChangeBeginCommandBattleTornado.h"
+
+UHbkAnimNotify_Em6000ChangeBeginCommandBattleTornado::UHbkAnimNotify_Em6000ChangeBeginCommandBattleTornado() {
+}
+
+

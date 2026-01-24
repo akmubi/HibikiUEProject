@@ -1,0 +1,6 @@
+#include "HbkAnimNotifyState_StrongFlyEm_DisabledContinuousAttackOnDurning.h"
+
+UHbkAnimNotifyState_StrongFlyEm_DisabledContinuousAttackOnDurning::UHbkAnimNotifyState_StrongFlyEm_DisabledContinuousAttackOnDurning() {
+}
+
+

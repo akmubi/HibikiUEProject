@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "4.26",
+	"FriendlyName": "FaceFX",
+	"Description": "Enables engine and editor support for facial animations powered by FaceFX.",
+	"Category": "FaceFX",
+	"CreatedBy": "OC3 Entertainment, Inc.",
+	"CreatedByURL": "https://www.facefx.com/",
+	"DocsURL": "https://unreal.facefx.com/",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "FaceFX",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"Mac",
+				"IOS",
+				"Android",
+				"XboxOne",
+				"PS4",
+				"Switch"
+			]
+		}
+	]
+}

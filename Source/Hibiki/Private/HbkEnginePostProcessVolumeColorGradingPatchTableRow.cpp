@@ -1,0 +1,5 @@
+#include "HbkEnginePostProcessVolumeColorGradingPatchTableRow.h"
+
+FHbkEnginePostProcessVolumeColorGradingPatchTableRow::FHbkEnginePostProcessVolumeColorGradingPatchTableRow() {
+}
+

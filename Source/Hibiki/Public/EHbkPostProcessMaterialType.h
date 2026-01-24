@@ -1,0 +1,46 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EHbkPostProcessMaterialType.generated.h"
+
+UENUM(BlueprintType)
+enum class EHbkPostProcessMaterialType : uint8 {
+    MotionBlur,
+    ToonMasking,
+    OcclusionOutlines,
+    ToonMotionBlurAfterImage,
+    CinematicHalftone,
+    ChromaticAberrationDOF,
+    PostProcessStencilOutlines,
+    TangoGamePost,
+    Pixelate,
+    Glitch,
+    RadialBlur,
+    LensDistortion,
+    WorldScan,
+    MonitorScanline,
+    InterferenceCRTPostPatch,
+    HologramPost,
+    HologramCharaPost,
+    HologramCharaPost2,
+    HologramCharaPost3,
+    HeatHaze,
+    PostProcessFiltersPatch,
+    PhotoModeMainPreDof,
+    PhotoModeMain,
+    CopyBackBufferBlendUI,
+    CustomHeightFog,
+    SoloLighting,
+    PostLensFlareFinal,
+    MultiCameraComposition,
+    PostProcessFiltersAfterTonemappingPatch,
+    PhotoModePixelate,
+    PhotoModeMainAfterTonemapping,
+    PhotoModeLensDistortion,
+    TestPost,
+    StaticShadowMapPreview,
+    DevGammaAdjust,
+    BackBufferPreview,
+    NVIDIAReflexLDAT,
+    Num,
+};
+

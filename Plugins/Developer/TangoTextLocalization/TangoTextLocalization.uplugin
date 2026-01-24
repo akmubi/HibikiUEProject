@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 5,
+	"VersionName": "1.4",
+	"FriendlyName": "Tango Text Localization",
+	"Description": "Text and Localization extension plugin.",
+	"Category": "Tango Plugin",
+	"CreatedBy": "TangoGameworks",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "TangoRichTextBlock",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		}
+	]
+}

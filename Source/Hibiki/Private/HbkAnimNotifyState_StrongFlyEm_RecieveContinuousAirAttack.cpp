@@ -1,0 +1,6 @@
+#include "HbkAnimNotifyState_StrongFlyEm_RecieveContinuousAirAttack.h"
+
+UHbkAnimNotifyState_StrongFlyEm_RecieveContinuousAirAttack::UHbkAnimNotifyState_StrongFlyEm_RecieveContinuousAirAttack() {
+}
+
+
